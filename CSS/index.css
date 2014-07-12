@@ -1,0 +1,91 @@
+    body
+    {
+        /*background: #FFCCCC;*/
+        background: white;
+        font-family: "Minion Pro";
+        /*Bradley Hand ITC*/
+        padding: 0;
+        margin: 0;
+    }
+
+    body a
+    {
+        text-decoration: none;
+    }
+
+    #back
+    {
+        background: #FFCCCC;
+        height: 100px;
+        top: 500px;
+
+    }
+
+    #top
+    {
+        position: absolute;
+        top: 0px;
+    }
+
+    #container 
+    {
+       margin: auto;
+       width: 1250px;
+    }
+
+    #title
+    {
+       /*font-family: "Curlz MT"; */
+        font-size: 46px;
+        color: #663300;
+        width: 640px;
+    }
+
+    #nav 
+    {
+        font-size: 30px;
+        width: 880px;
+    }
+
+    #nav a
+    {
+        color: #663300; 
+        margin-left: 20px;  
+        margin-right: 20px;
+    }
+
+    #nav a:hover
+    {
+        color: white;
+    }
+
+    .post
+    {
+        position: relative;
+    }  
+
+    .post img
+    {
+        width:400px;
+        margin-left: 10px;
+        margin-top:10px;
+        border: none;
+    }
+
+    #footerbackground
+    {
+        height:80px;
+        background: #FFCCCC;
+    }
+
+    #footer
+    {
+        color: #663300;
+        margin-top:10px;
+        text-align:center;
+        height:40px;
+        position: absolute;
+        margin-top: 30px;
+        width: 1250px;
+        align-content: center;
+    }
