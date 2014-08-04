@@ -1,42 +1,15 @@
-﻿function slide()
-{
-	jQuery.fn.extend(
-	{
-		scrollTo: function (speed, easing) 
-		{
-			return this.each(function () 
-			{
-				var targetOffset = $(this).offset().top;
-				$('html,body').animate({ scrollTop: targetOffset }, speed, easing);
-			});
-		}
-	});
-}
-
-function slide1()
-{
-	slide();
-
-	$('#nav').scrollTo(500);
-}
-
-function slide2()
-{
-	slide();
-
-	$('#News').scrollTo(600);
-}
-
-function slide3()
-{
-	slide();
-
-	$('#About').scrollTo(800);
-}
-
-function slide4()
-{
-	slide();
-
-	$('#Team').scrollTo(1000);
-}
+$(function() {
+    $('.navbuttons a').bind('click',function(event){
+        var $anchor = $(this);
+        /*
+        if you want to use one of the easing effects:
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1500,'easeInOutExpo');
+         */
+        $('html, body').stop().animate({
+            scrollLeft: $($anchor.attr('href')).offset().left
+        }, 1000);
+        event.preventDefault();
+    });
+});
