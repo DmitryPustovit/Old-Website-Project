@@ -21,7 +21,7 @@ z-index: 1;
 position: absolute;
 background-color: #EEEEEE;
 height: 300px;
-top: 560px;
+top: 1050px;
 width: 100%;
 z-index: -1;
 }
@@ -102,6 +102,13 @@ margin: auto;
 	font-size: 24px;
 	font-weight: 300;
 	margin-top: 20px;
+}
+
+.newssectoion{
+	font-weight: 300;
+	font-size: 24px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 #about{
