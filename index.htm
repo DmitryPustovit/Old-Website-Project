@@ -2,179 +2,101 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="Dmitry Pustovit. My personal website and blog."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
 
-    <title>Dmitry Pustovit</title>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="blog/scripts/intro.js"></script>
+    <title>Mystic Static | The Game Studio</title>
 	
+	<!-- THATS SO META!!!
+	<meta name="description" content="Learn to make stunning games with video-based tutorials and training. Brackeys is one of the fastest growing tutorial resources in game development."/>
+	<link rel="canonical" href="http://brackeys.com/" />
+	<link rel="publisher" href="http://www.google.com/+Brackeys"/>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Brackeys | Become a Developer" />
+	<meta property="og:description" content="Learn to make stunning games with video-based tutorials and training. Brackeys is one of the fastest growing tutorial resources in game development." />
+	<meta property="og:url" content="http://brackeys.com/" />
+	<meta property="og:site_name" content="MysticStatic" />
+	<meta property="article:publisher" content="http://facebook.com/brackeys/" />
+	<meta property="fb:admins" content="1554037493" />
+	<meta property="og:image" content="http://brackeys.com/wp-content/uploads/2012/12/BrackeysLogoOpt.jpg" />
+	<meta name="google-site-verification" content="x2Vj_8YpZN88xuLCsp2E-Q3An7E2y7HeRYo7njz0jD8" />
+	-->
+	
+    <!-- Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+	
+	<script src="scripts/scroll.js"></script>
+	
+	<!--<script src="scripts/twitter.js"></script> -->
+	<!--<script src="scripts/facebook.js"></script> -->
+	<!--<script src="scripts/blog.js"></script> -->
+    <!--<script src="scripts/team.js"></script> -->
+	<!--<script src="scripts/contact.js"></script> -->
 
-    <style>
-        body {
-            background-color: #145ECF;
-            font-family: "Corbel";
-			margin: 0;
-			padding: 0;
-        }
+    <!-- Stylesheets-->
+	<link href='http://fonts.googleapis.com/css?family=Jura:400,500,600,300|Julius+Sans+One|Gruppo' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400' rel='stylesheet' type='text/css'>
+    <link rel="Stylesheet" type="text/css" href="css/main.css" />
 
-        .title {
-            color: white;
-            align-content: center;
-            width: 600px;
-            text-align: center;
-            margin-top: 10%;
-            position: relative;
-            z-index: 2;
-        }
-        .title h1 {
-            font-size: 40px;
-        }
-        .title h2 {
-            font-size: 20px;
-        }
-        #nav {
-            margin-top: 160px;
-            text-align: center;
-        }
-        .button{
-            display: inline;
-            margin-left: 40px;
-            margin-right: 40px;
-            font-size: 20px;
-            font-weight: 900;
-            opacity: 1;
-        }
-            .button:hover a{
-				background-color: orangered;
-				color : white;
-				-webkit-transition: background  0.4s ease-out;
-                -moz-transition: background  0.4s ease-out;
-                -o-transition: background  0.4s ease-out;
-                -ms-transition: background  0.4s ease-out;
-                transition: background  0.4s ease-out;
-            }
+    <!-- Other-->
+    <link rel="shortcut icon" href="resources/logo_icon.ico" />
 
-            .button a {
-                text-decoration: none;
-				padding: 14px;
-
-				color: #145ECF;
-				background: white;
-            }
-			
-			.button1{
-            display: inline;
-            margin-left: 40px;
-            margin-right: 40px;
-            font-size: 20px;
-            font-weight: 900;
-            opacity: 1;
-        }
-            .button1:hover a{
-				background-color: orangered;
-				color : white;
-				-webkit-transition: background  0.4s ease-out;
-                -moz-transition: background  0.4s ease-out;
-                -o-transition: background  0.4s ease-out;
-                -ms-transition: background  0.4s ease-out;
-                transition: background  0.4s ease-out;
-            }
-
-            .button1 a {
-                text-decoration: none;
-				padding: 14px;
-
-				color: white;
-				background: #145ECF;
-            }
-
-
-        #about {
-            height: 80px;
-            width: 600px;
-            opacity: 1;
-			margin:20px;
-            font-size: 20px;
-            color: black;
-            text-align: center;
-            font-weight: 900;
-        }
-		
-		.about
-		{
-			vertical-align: middle;
-			height: 80px;
-		}
-		
-		#background
-		{
-		width: 100%;
-		background: #F8F8F8;
-		height: 300px;
-		position: absolute;
-		top: 300px;
-		z-index: -4;
-		display: none;
-		}
-		
-	</style>
-</head>
+</head>	
 
 <body>
-<div align="center">
-<div class="title" align="center">
-<h1>Dmitry Pustovit</h1>
-<h2>Developer + Designer</h2>
-    <div id="nav">
-        <div class="button"><a href="blog"> &nbsp &nbsp &nbsp Blog &nbsp &nbsp &nbsp </a></div>
-        <div class="button"><a href="#" onclick="intro()">&nbsp &nbsp About &nbsp &nbsp </a></div>
-		<div class="button"><a href="https://docs.google.com/forms/d/15_2BsYgsNmw79NyPdM_siqSTd11ip10LNDOIRjfNANw/viewform?usp=send_form">&nbsp &nbsp Contact &nbsp &nbsp </a></div>
-    </div>
 
-</div>
-</div>
-<br/><br/><br/><br/><br/><br/>
-<table align="center" id="table">
-				<tr>
-					<td>
-					<div class="button1"><a href="#" onclick="textback()">&nbsp &nbsp<-&nbsp &nbsp</a></div>
-					</td>
-					
-				  <td>
-				  
-					<div id="about">
-						<span id="id1" class ="about"> My name is Dmitry Pustovit. I am a developer and a designer. </span>
-						
-						<span id="id2" class ="about"> I started programming when I started high school. I wanted to create 
-						programs and websites from scratch. It seemed like the ultimate challenge, to make something that 
-						was completely mine. </span>
-						
-						<span id="id3" class ="about"> While I began learning how to program, I started it learn the basics 
-						of design. Over time my skills as a designer increased but, I am still learning. </span>
-						
-						<span id="id4" class ="about"> I believe that is essential for any designer and developer to always 
-						be learning. The minds of people are always changing and new technology is always being developed. </span>
-						
-						<span id="id5" class ="about"> It is essential for a developers and designers to always keep up with 
-						the newest trends and the newest technology in order to keep their work up to date. </span>
-						
-						<span id="id6" class ="about"> Needless to say this website was created completely from scratch. I hope you enjoy. </span>
-						
-						<span id="id7" class ="about"> If you like my work and would like me to create you a website or if you just have 
-						questions, you can contact me through the contact page on my website. </span>
-					</div>
-					
-					</td>
-					
-					<td>
-					 <div class="button1"><a href="#" onclick="textforward()">&nbsp &nbsp -> &nbsp &nbsp</a></div>
-					 </td>
-				</tr>
-</table>
+<div id="background"> </div>
+<div id="background1"> </div>
 
-<div id="background"></div>
-
+<div class="content">
+	<div id="nav">
+		<div class="navbuttons">
+			<a href="#page1">HOME</a>
+			<a href="#page4">NEWS</a>
+			<a href="#page4">ABOUT</a>
+		</div>
+		
+		<div class="navbuttons">
+			<img src="resources/logo_no_reflect.png"/>
+		</div>
+		
+		<div class="navbuttons">	
+				<a href="#" onclick="slide1()">TEAM</a>
+				<a href="#page5">BLOG</a>
+				<a href="#">CONTACT</a>
+		</div>
+	</div>
+</div>	
+	
+		<div id="page1" class="pagecontent">
+			<div class="video"> <img src="resources/intro.jpg"/></div>
+			
+			<div class="greeting">Mystic Static, The Game Studio. <br/>We are an independent game studio.</div>
+			
+			<div id="about">
+			<h1>About Mystic Static</h1>
+			Mystic Static was founded in February 2013 by Dmitry Pustovit. Its original purpose was to give storys a physical medium, in this case video games. Through it brief existence it has gone through many different changes and ideas. Our goal is simple, create video games that we think are interesting, we would want to play, or we think would be fun to make. 
+			<div class="button"> Find Out More </div>
+			</div>
+		</div>
+		<!--
+		<div id="page2" class="pagecontent">
+			Page 2 Content Goes Here :D
+		</div>
+		
+		<div id="page3" class="pagecontent">
+			Page 3 Content Goes Here :D
+		</div>
+		
+		<div id="page4" class="pagecontent">
+			Page 4 Content Goes Here :D
+		</div>
+		
+		<div id="page5" class="pagecontent">
+			Page 5 Content Goes Here :D
+		</div>
+		-->
 </body>
 </html>
