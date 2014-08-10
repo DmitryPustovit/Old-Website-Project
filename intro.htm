@@ -1,0 +1,180 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="Dmitry Pustovit. My personal website and blog."/>
+
+    <title>Dmitry Pustovit</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="blog/scripts/intro.js"></script>
+	
+
+    <style>
+        body {
+            background-color: #145ECF;
+            font-family: "Corbel";
+			margin: 0;
+			padding: 0;
+        }
+
+        .title {
+            color: white;
+            align-content: center;
+            width: 600px;
+            text-align: center;
+            margin-top: 10%;
+            position: relative;
+            z-index: 2;
+        }
+        .title h1 {
+            font-size: 40px;
+        }
+        .title h2 {
+            font-size: 20px;
+        }
+        #nav {
+            margin-top: 160px;
+            text-align: center;
+        }
+        .button{
+            display: inline;
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: 20px;
+            font-weight: 900;
+            opacity: 1;
+        }
+            .button:hover a{
+				background-color: orangered;
+				color : white;
+				-webkit-transition: background  0.4s ease-out;
+                -moz-transition: background  0.4s ease-out;
+                -o-transition: background  0.4s ease-out;
+                -ms-transition: background  0.4s ease-out;
+                transition: background  0.4s ease-out;
+            }
+
+            .button a {
+                text-decoration: none;
+				padding: 14px;
+
+				color: #145ECF;
+				background: white;
+            }
+			
+			.button1{
+            display: inline;
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: 20px;
+            font-weight: 900;
+            opacity: 1;
+        }
+            .button1:hover a{
+				background-color: orangered;
+				color : white;
+				-webkit-transition: background  0.4s ease-out;
+                -moz-transition: background  0.4s ease-out;
+                -o-transition: background  0.4s ease-out;
+                -ms-transition: background  0.4s ease-out;
+                transition: background  0.4s ease-out;
+            }
+
+            .button1 a {
+                text-decoration: none;
+				padding: 14px;
+
+				color: white;
+				background: #145ECF;
+            }
+
+
+        #about {
+            height: 80px;
+            width: 600px;
+            opacity: 1;
+			margin:20px;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            font-weight: 900;
+        }
+		
+		.about
+		{
+			vertical-align: middle;
+			height: 80px;
+		}
+		
+		#background
+		{
+		width: 100%;
+		background: #F8F8F8;
+		height: 300px;
+		position: absolute;
+		top: 300px;
+		z-index: -4;
+		display: none;
+		}
+		
+	</style>
+</head>
+
+<body>
+<div align="center">
+<div class="title" align="center">
+<h1>Dmitry Pustovit</h1>
+<h2>Developer + Designer</h2>
+    <div id="nav">
+        <div class="button"><a href="blog"> &nbsp &nbsp &nbsp Blog &nbsp &nbsp &nbsp </a></div>
+        <div class="button"><a href="#" onclick="intro()">&nbsp &nbsp About &nbsp &nbsp </a></div>
+		<div class="button"><a href="https://docs.google.com/forms/d/15_2BsYgsNmw79NyPdM_siqSTd11ip10LNDOIRjfNANw/viewform?usp=send_form">&nbsp &nbsp Contact &nbsp &nbsp </a></div>
+    </div>
+
+</div>
+</div>
+<br/><br/><br/><br/><br/><br/>
+<table align="center" id="table">
+				<tr>
+					<td>
+					<div class="button1"><a href="#" onclick="textback()">&nbsp &nbsp<-&nbsp &nbsp</a></div>
+					</td>
+					
+				  <td>
+				  
+					<div id="about">
+						<span id="id1" class ="about"> My name is Dmitry Pustovit. I am a developer and a designer. </span>
+						
+						<span id="id2" class ="about"> I started programming when I started high school. I wanted to create 
+						programs and websites from scratch. It seemed like the ultimate challenge, to make something that 
+						was completely mine. </span>
+						
+						<span id="id3" class ="about"> While I began learning how to program, I started it learn the basics 
+						of design. Over time my skills as a designer increased but, I am still learning. </span>
+						
+						<span id="id4" class ="about"> I believe that is essential for any designer and developer to always 
+						be learning. The minds of people are always changing and new technology is always being developed. </span>
+						
+						<span id="id5" class ="about"> It is essential for a developers and designers to always keep up with 
+						the newest trends and the newest technology in order to keep their work up to date. </span>
+						
+						<span id="id6" class ="about"> Needless to say this website was created completely from scratch. I hope you enjoy. </span>
+						
+						<span id="id7" class ="about"> If you like my work and would like me to create you a website or if you just have 
+						questions, you can contact me through the contact page on my website. </span>
+					</div>
+					
+					</td>
+					
+					<td>
+					 <div class="button1"><a href="#" onclick="textforward()">&nbsp &nbsp -> &nbsp &nbsp</a></div>
+					 </td>
+				</tr>
+</table>
+
+<div id="background"></div>
+
+</body>
+</html>
