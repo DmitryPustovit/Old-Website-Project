@@ -1,7 +1,7 @@
 body{
 margin: 0;
 font-family: Verdana, Geneva, sans-serif;
-color: gray;
+color: black;
 }
 
 body img{
@@ -20,8 +20,27 @@ z-index: 1;
 #background1{
 position: absolute;
 background-color: #EEEEEE;
-height: 300px;
+height: 480px;
+top: 80px;
+width: 100%;
+z-index: -1;
+}
+
+#background2{
+position: absolute;
+background-color: #EEEEEE;
+height: 320px;
 top: 1050px;
+width: 100%;
+z-index: -1;
+}
+
+#background3{
+position: absolute;
+background-color: black;
+background-image: url(../resources/footer_BGt.jpg);
+height: 240px;
+top: 1370px;
 width: 100%;
 z-index: -1;
 }
@@ -155,4 +174,40 @@ margin: auto;
 	text-shadow: 0 1px 0 white;
 	
 	width: 100px;
+}
+
+#footer{
+height: 240px;
+margin-top: 40px;
+color: gray;
+margin-top: 0px;
+}
+
+.column{
+    display: inline-block;
+    margin-right: 110px;
+    font-size: 14px;
+    margin-top: 90px;
+}
+
+.column img{
+    width: 200px;
+    margin-top: -70px;
+    position:absolute;
+}
+
+.column p{
+   font-size: 12px;
+}
+
+.column ul{
+margin-top: 12px;
+padding: 0;
+}
+
+.column li{
+list-style: none;
+color: white;
+font-size: 13px;
+margin-top: 8px;
 }
