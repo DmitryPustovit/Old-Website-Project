@@ -30,7 +30,7 @@ z-index: -1;
 position: absolute;
 background-color: #EEEEEE;
 height: 320px;
-top: 1050px;
+top: 1180px;
 width: 100%;
 z-index: -1;
 }
@@ -40,7 +40,7 @@ position: absolute;
 background-color: black;
 background-image: url(../resources/footer_BGt.jpg);
 height: 240px;
-top: 1370px;
+top: 1500px;
 width: 100%;
 z-index: -1;
 }
@@ -126,6 +126,7 @@ margin: auto;
 .newssectoion{
 	font-weight: 300;
 	font-size: 24px;
+	height: 120px;
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
