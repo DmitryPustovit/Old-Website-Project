@@ -277,42 +277,11 @@ height: 40px;
 
 /* About */
 
-.aboutsectionaddon{
-	color: black;
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 22px;
-	font-weight: 300;
-	height: 100px;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 900px;
-}
-
-.aboutsectionaddon span{
-	display: table-cell;
-	height: 100px;
-	text-align: center;
-	vertical-align: middle;
-	width: 900px;
-}
-
-#roll{
-	background-color: #EEEEEE;
-	color: black;
-	cursor: pointer;
-	font-weight: 400;
-	margin: auto;
-	padding-bottom: 16px;
-	padding-top: 16px;
-	width: 180px;
-}
-
 .aboutheader{
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 36px;
 	font-weight: 300;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .aboutsection{
