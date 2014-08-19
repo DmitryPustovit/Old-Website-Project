@@ -38,11 +38,153 @@ body{
 	opacity: 1.0;
 	opacity: 0.6;
 	
+<<<<<<< HEAD
     -webkit-transition: opacity 0.2s ease-out;
     -moz-transition: opacity 0.2s ease-out;
     -o-transition: opacity 0.2s ease-out;
     -ms-transition: opacity 0.2s ease-out;
     transition: opacity 0.2s ease-out;
+=======
+	margin: auto;
+	margin-top: 20px;
+	
+	padding: 7px 30px;
+	
+	text-decoration: none;
+	
+	text-shadow: 0 1px 0 white;
+	
+	width: 100px;
+}
+
+.button a:hover{
+	background-image: -moz-linear-gradient(#d1d1d1,#dcdcdc);
+	background-image: -o-linear-gradient(#d1d1d1,#dcdcdc);
+	/* background-image: -webkit-linear-gradient(#d1d1d1,#dcdcdc); */
+	background-image: linear-gradient(	#d1d1d1,#dcdcdc);
+}
+
+#footer{
+	color: gray;
+	font-family: 'Jura' , sans-serif;
+	height: 240px;
+	margin-top: 0px;
+}
+
+.column{
+    display: inline-block;
+	font-size: 14px;
+    margin-right: 80px;
+	margin-top: 90px;
+}
+
+.column img{
+	float: left;
+    margin-top: -70px;
+	width: 200px;
+}
+
+.column p{
+	color: white;
+	font-size: 14px;
+}
+
+.column ul{
+	margin-top: 12px;
+	padding: 0;
+}
+
+.column li{
+	font-size: 14px;
+	list-style: none;
+	margin-top: 8px;
+}
+
+.column li a{
+	color: white;
+	text-decoration: none;
+}
+
+.scrollToTop{
+	background-color: #008AE6;
+	color: white;
+	cursor: pointer;
+	display: none;
+	padding: 18px;
+	position: fixed;
+	top: 60%;
+}
+
+.intotext{
+	color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 8px;
+	width: 900px;
+}
+
+/* About */
+
+.aboutsectionaddon{
+	color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	height: 100px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 900px;
+}
+
+.aboutsectionaddon span{
+	display: table-cell;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	width: 900px;
+}
+
+#roll{
+	background-color: #EEEEEE;
+	color: black;
+	cursor: pointer;
+	font-weight: 400;
+	margin: auto;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	width: 180px;
+}
+
+.aboutheader{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.aboutsection{
+	color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	margin: auto;
+	margin-top: 20px;
+	padding-bottom: 8px;
+	width: 900px;
+}
+
+/* Team */
+
+.teammember{
+	margin: auto;
+	margin-top: 80px;
+	height: 400px;
+	width: 960px;	
+>>>>>>> parent of 4dda50d... Update
 }
 
 #nav img:hover{
