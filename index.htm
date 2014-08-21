@@ -1,167 +1,116 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
+	<meta property="og:image" content="resources/epic.jpg" />
 
-    <title>(dot)Com Count</title>
+    <title>makuru</title>
 
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script>
 	
-jQuery.fn.center = function () {
-    this.css("position","absolute");
-    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
-                                                $(window).scrollTop()) + "px");
-    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
-                                                $(window).scrollLeft()) + "px");
-    return this;
-}
-
-$(window).ready(function () {
-$('#main').center();
-});
-
-        $(window).resize(function () {
-		$('#main').center();
-		});
-	
-	 function slide()
-        {
-            jQuery.fn.extend(
-		{
-			scrollTo: function (speed, easing) {
-				return this.each(function () {
-					var targetOffset = $(this).offset().top;
-					$('html,body').animate({ scrollTop: targetOffset }, speed, easing);
-				});
-			}
-		});
-            $('#info').scrollTo(500);
-        }
-		
-		
-	</script>
 
     <!-- Stylesheets-->
-	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,200' rel='stylesheet' type='text/css'>
-	
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Armata|Quicksand|Ubuntu:300,400|Josefin+Sans:100,300,400|Waiting+for+the+Sunrise|Reenie+Beanie|Shadows+Into+Light|Gloria+Hallelujah|Exo:300,400|Indie+Flower|Maven+Pro|Coming+Soon|Shadows+Into+Light+Two|Amatic+SC|Handlee|Architects+Daughter' rel='stylesheet' type='text/css'>
+    
+	<link rel="shortcut icon" href="logo.ico" />
 	<style>
-	body{
-	padding: 0;
-	margin: 0;
-	}
-	
-	#container{
-		width: 360px;
-		margin: auto;
-	}
-	
-	#main{
-	height: 540px;
-	main: auto;
-width: 360px;
-	}
-	
-	p{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	text-align: center;
-	font-weight: 300;
-	font-size: 24px;
-	color: blue;	
-	}
-	
-	#count{
-		font-family: 'Yanone Kaffeesatz', sans-serif;
-		font-size: 20px;
-		text-align:center;
-		height: 350px;
-		width: 350px;
-		border: dashed 2px blue;
-		border-radius: 600px;
-		margin: auto;
-		color: blue;
-	}
-	
-	span{
-		display: table-cell;    
-		text-align: center;
-		width: 350px;
-		border-radius: 4px 4px 4px 4px;
-		height: 350px;
-		vertical-align: middle;
-	}
-	
-	#scroll{
-		width: 56px;
-		padding-top: 18px;
-		padding-bottom: 15px;
-		border: dashed 2px blue;
-		text-align: center;
-		font-size: 20px;
-		border-radius: 100px;
-		color: blue;
-		cursor: pointer;
-		margin: auto;
-		margin-top: 20px;
-	}
-	
-	#scroll:hover{
-	border: solid 2px blue;
-	}
-	
-	#info{
-	margin-top: 4000px;
-	padding-bottom: 1000px;
-	}
-	
-	#infotext{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	text-align: center;
-	font-size: 20px;
-	}
-	
-	footer{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	text-align: center;
-	font-size: 18px;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	}
-	
+		
+		body{
+			background: #37538A;
+		}
+		
+		#container{
+			width: 600px;
+			margin: auto;
+		}
+		
+		#logopage{
+			text-align: center;
+			margin-top: 0px;
+		}
+		
+		#logo{
+			font-family: 'Indie Flower', cursive;
+			color: white;
+			font-size: 120px;
+			height: 200px;
+			margin-bottom: 0px;
+			text-align: center;
+			margin-top: 300px;
+			}
+		
+		#logo img{
+			height: 100px;
+			width: 100px;
+			vertical-align: middle;
+		}
+		
+		span{
+				display: inline-block;
+				height: 200px;
+				vertical-align: middle;
+		}
+		
+		#bottom{
+			font-family: 'Josefin Sans', sans-serif;
+			color: #D8D8D8;
+			font-size: 24px;
+			margin-top: 40px;
+		}
+		
+		#scroll{
+			cursor: pointer;
+			width: 40px;
+			margin: auto;
+			margin-top: 120px;
+		}
+		
+		#scroll img{
+			width: 40px;
+			height: 20px;
+
+		}
+		
+		p{
+		position: absolute;
+		font-size: 24px;
+		top: 400px;
+		margin-left: 500px;
+		}
 	</style>
 
 </head>
 
 <body>
+
+<div id="navbackground"> </div>
+
 <div id="container">
 
-	<div id="main">
-		<p>The Internet is a ridicules and enormous place.</p>
+	<div id="logopage">
+		<div id="logo"><span><img src="logo.png" alt="logo"/>	 makuru <p> beta </p> </span></div>
 		
-		<div id="count">
+		<div id="bottom"> Web UI, Design, and Intergeneration Done Right.  </div>
+			<div id="scroll"> <img src="http://d4yt8xl9b7in.cloudfront.net/assets/home/scroll-trigger-small-b9f36aa39bd568c2eb7dc4d0c25f2292.png"/> </div>
+	</div>
 		
-			<span>114,656,646 (dot) com's are currently registered. </span>
-			
-		</div>
-		
-		<div id="scroll" onclick="slide()"> &#x25BC;  </div>
-	</div>
-	
-	<div id="info">
-	<div id="infotext"> 
-	This is not a domain registration site, it is not a WhoIs look up site, and it is not a hosting site. 
-	<br/><br/>
-	This sites purpose is to simply count the number of (dot) coms in existence. 
-	<br/><br/>
-	There will never be ads on this site. Simplicity is beauty.
-	</div>
-	<footer>  <br/> Founded and created by Dmitry Pustovit with assistance from Matthew Halsted.</footer>
-	</div>
-	
 </div>
+
+<div id="footerbackground"> </div>
 
 </body>
 </html>
+
+<!--
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Indie Flower', cursive;
+
+font-family: 'Waiting for the Sunrise', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Poiret One', cursive;
+-->
