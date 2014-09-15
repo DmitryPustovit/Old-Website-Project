@@ -15,8 +15,10 @@
 
 	<!-- Custom CSS -->
 	<style>
-	body{
-	
+	html,body{
+		font-family: "Lato", sans-serif;
+		height: 100%;
+		min-height: 100%;
 	}
 	
 	#hello{
@@ -33,9 +35,23 @@
 		text-align: center;	
 	}
 	
+	#center{
+		text-align: center;	
+	}
+	
 	#button{
 		font-family: 'Quicksand', sans-serif; 
+		width: 200px;
 	}
+	
+	.container{
+		text-align: center;
+		height:100%;
+		min-height: 100%;
+		display: table;
+	}
+	
+	.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
 	</style>
 	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,22 +63,45 @@
   </head>
   <body>
   <div class="container">
-    <h1 id="hello"><big>Hello.</big></h1>
-	<div class="row">
-		<div id="image">
-			<img src="10470987_10203963456620322_1559617335776658399_o.jpg" class="img-circle"/>
+	<div class="row-fluid">
+		<h1 id="hello"><big>Hello.</big></h1>
+		<div class="row">
+			<div id="image">
+				<img src="10470987_10203963456620322_1559617335776658399_o.jpg" class="img-circle"/>
+			</div>
 		</div>
-	</div>
-	
-	<div class="row">
-		<h3 id="hello">My Name Is:</h3>
-		<h2 id="hello"><big>Dmitry Pustovit.</big></h2>
-	</div>
-	
-	<div class="row">
-		<h3 id="hello">I Am A:</h3>
-		<h2 id="hello"><big><b style="color:#3498DB; font-weight: 400;">Developer</b>. <b style="color:#A5E65A; font-weight: 400;">Designer</b>. <b style="color:#9B59B6; font-weight: 400;">Writer</b>. <b style="color:#5F7174; font-weight: 400;">Robot Builder</b>. <b style="color:#E67E22; font-weight: 400;">Physics Enthusiast</b>.</big></h2>
-	</div>
+		
+		<div class="row">
+			<h3 id="hello">My Name Is:</h3>
+			<h2 id="hello"><big>Dmitry Pustovit.</big></h2>
+		</div>
+		
+		<div class="row">
+			<h3 id="hello">I Am A:</h3>
+			<h2 id="hello"><big><b style="color:#3498DB; font-weight: 400;">Developer</b>. <b style="color:#5cb85c; font-weight: 400;">Designer</b>. <b style="color:#9B59B6; font-weight: 400;">Writer</b>. <b style="color:#5F7174; font-weight: 400;">Robot Builder</b>. <b style="color:#E67E22; font-weight: 400;">Physics Enthusiast</b>.</big></h2>
+		</div>
+		
+		<br/>
+		
+	<!--	<div class="row">
+				<div class="col-md-2">
+				</div>
+		
+				<div class="col-md-4">
+				</br>
+					<button type="button" class="btn btn-primary btn-lg" id="button"><<< Learn More</button>
+				</div>
+				
+				<div class="col-md-4">
+				</br>
+					<button type="button" class="btn btn-default btn-lg" id="button">My Blog >>></button>
+				</div>
+				
+				<div class="col-md-2">
+				</div>
+		</div>
+		<br/><br/>-->
+	</div>	
   </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
