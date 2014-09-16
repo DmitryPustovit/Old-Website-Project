@@ -12,17 +12,18 @@
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Abel|Indie+Flower|Titillium+Web:400,300,200,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body{
-		font-family: 'Quicksand', sans-serif;
+		font-family: 'Arimo', sans-serif;
 	}
 	
 	.intro{
-		text-align: center;
+		margin-top: 80px;
+		font-family: 'Quicksand', sans-serif;
 	}
 	
 	.container{
-	text-align:center;
 	}
 	
 	header a{
@@ -33,6 +34,10 @@
 	header a:hover{
 		color: black;
 		text-decoration: none;
+	}
+	
+	.post{
+		margin-top: 40px;
 	}
 	
 	.postContent{
@@ -46,7 +51,7 @@
    </head>
 <body>
 
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default" role="navigation" style="position: fixed; width: 100%;">
 	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -67,10 +72,10 @@
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: 'Quicksand', sans-serif; font-size: 18px;"> More <span class="caret"></span></a>
 			  <ul class="dropdown-menu" role="menu" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">
-				<li><a href="#">About Me</a></li>
+			    <li><a href="#">About Me</a></li>
 				<li class="divider"></li>
 				<li><a href="#">Twitter</a></li>
-				<li><a href="#">GitHub</a></li>
+				<li><a href="https://github.com/DmitryPustovit">GitHub</a></li>
 
 			  </ul>
 			</li>
@@ -87,7 +92,6 @@
 		</div>
 		<br/><br/>
 		<div class="divider" style="border: dashed 1px black;"></div>
-		<br/>
 	    <article class="post">
             <header>
                 <h1> <a href="posts/website-updates-and-changes.php"> Website Updates and Changes </a> </h1>
