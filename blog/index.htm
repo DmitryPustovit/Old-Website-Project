@@ -13,9 +13,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Abel|Indie+Flower|Titillium+Web:400,300,200,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 	<style>
 	body{
-		font-family: 'Abel', sans-serif;
+		font-family: 'Roboto', sans-serif;
 	}
 	
 	.intro{
@@ -27,13 +28,19 @@
 	}
 	
 	header a{
-		color: black;
-		font-size: 30px;
+		color: orangered;;
+		font-size: 28px;
+		font-weight: 700;
 	}
 	
 	header a:hover{
-		color: black;
+		color: blue;
 		text-decoration: none;
+	}
+	
+	h2{
+		font-family: 'Abel', sans-serif;
+		font-size: 20px;
 	}
 	
 	.post{
@@ -41,11 +48,19 @@
 	}
 	
 	.postContent{
+	font-family: 'Abel', sans-serif;
 		font-size: 22px;
+		margin-top: 10px;
 	}
 	
 	.readmore{
-		font-size: 23px;
+		font-family: 'Abel', sans-serif;
+		font-size: 22px;
+	}
+	
+	.readmore a:hover{
+		color: blue;
+		text-decoration: none;
 	}
 	</style>
    </head>
@@ -68,13 +83,13 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="#" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">Blog</a></li>
-			<li><a href="#" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">Projects</a></li>
+		<!--	<li><a href="#" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">Projects</a></li> -->
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: 'Quicksand', sans-serif; font-size: 18px;"> More <span class="caret"></span></a>
 			  <ul class="dropdown-menu" role="menu" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">
-			    <li><a href="#">About Me</a></li>
+			   <!-- <li><a href="#">About Me</a></li> -->
 				<li class="divider"></li>
-				<li><a href="#">Twitter</a></li>
+				<li><a href="https://twitter.com/Dmitry222">Twitter</a></li>
 				<li><a href="https://github.com/DmitryPustovit">GitHub</a></li>
 
 			  </ul>
@@ -92,7 +107,45 @@
 		</div>
 		<br/><br/>
 		<div class="divider" style="border: dashed 1px black;"></div>
-	    <article class="post">
+		
+		<article class="post">
+            <header>
+                <h1> <a href="posts/iOS8-Review.htm"> iOS 8 Review  </a> </h1>
+				<h2>Posted 9 / 21 / 14</h2>
+            </header>
+            <section class="postContent">
+                <p>
+					iOS 8 - Huge For Developers. Massive For Everyone Else.
+					<br/>
+					This is my opinion of iOS 8 and if people should upgrade. I will be covering only the iPhones. 
+					It will include a lot of the major drawbacks to the new update. I also mention some of the major 
+					benefits of the new update and what make it pretty neat.
+
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/iOS8-Review.htm">Read More...</a>
+            </div>
+		</article>
+		
+		<article class="post">
+            <header>
+                <h1> <a href="posts/free-webhost-discovery.php"> An Explanation  </a> </h1>
+				<h2>Posted 9 / 21 / 14</h2>
+            </header>
+            <section class="postContent">
+                <p>
+					In the month of August I decided I did not like the way my blog looked or the webhost it was 
+					hosted on, I decided I would change both of those. Now I am a student, and as the school year 
+					has started up again I have found it hard to really dedicate time into working on my blog. As 
+					a result I give you this new blog. I looks much nicer and works a lot better however, all of my 
+					old posts and temporary gone and some of the feature that I would like to include are missing. 
+					These will be added hopefully in the coming weeks.
+                </p>
+            </section>
+		</article>
+		
+	  <!--  <article class="post">
             <header>
                 <h1> <a href="posts/website-updates-and-changes.php"> Website Updates and Changes </a> </h1>
             </header>
@@ -191,8 +244,8 @@
             <div class="readmore">
                 <a href="posts/archive-system.php">Read More...</a>
             </div>
-        </article>
-
+        </article> -->
+		<br/><br/><br/><br/>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
