@@ -1,0 +1,47 @@
+body{
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.intro{
+		margin-top: 80px;
+		font-family: 'Quicksand', sans-serif;
+	}
+	
+	.container{
+	}
+	
+	header a{
+		color: orangered;;
+		font-size: 28px;
+		font-weight: 700;
+	}
+	
+	header a:hover{
+		color: blue;
+		text-decoration: none;
+	}
+	
+	h2{
+		font-family: 'Abel', sans-serif;
+		font-size: 20px;
+	}
+	
+	.post{
+		margin-top: 40px;
+	}
+	
+	.postContent{
+	font-family: 'Abel', sans-serif;
+		font-size: 22px;
+		margin-top: 10px;
+	}
+	
+	.readmore{
+		font-family: 'Abel', sans-serif;
+		font-size: 22px;
+	}
+	
+	.readmore a:hover{
+		color: blue;
+		text-decoration: none;
+	}
