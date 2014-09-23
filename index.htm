@@ -10,103 +10,219 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	
 	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Abel|Indie+Flower|Titillium+Web:400,300,200,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Abel:400,300,200,600,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Custom Stylesheet  -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<!-- Scripts -->
+	<script src="scripts/scrolltotop.js"></script>
+	
+   </head>
+<body>
 
-	<!-- Custom CSS -->
-	
-	<!-- Custom CSS -->
-	<style>
-	html,body{
-		font-family: "Lato", sans-serif;
-		height: 100%;
-		min-height: 100%;
-	}
-	
-	#hello{
-	font-family: 'Quicksand', sans-serif; 
-	//font-weight:300;
-	text-align:center;
-	}
-	
-	#image{
-		text-align:center;
-	}
-	
-	.row{
-		text-align: center;	
-	}
-	
-	#center{
-		text-align: center;	
-	}
-	
-	#button{
-		font-family: 'Quicksand', sans-serif; 
-		width: 200px;
-	}
-	
-	.container{
-		text-align: center;
-		height:100%;
-		min-height: 100%;
-		display: table;
-	}
-	
-	.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
-	</style>
+	<nav class="navbar navbar-default" role="navigation" style="position: fixed; width: 100%;">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="/" style="font-family: 'Quicksand',sans-serif; font-size: 20px;">Dmitry Pustovit</a>
+		</div>
 
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">Blog</a></li>
+		<!--	<li><a href="#" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">Projects</a></li> -->
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-family: 'Quicksand', sans-serif; font-size: 18px;"> More <span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu" style="font-family: 'Quicksand', sans-serif; font-size: 18px;">
+			    <li><a href="/about">About Me</a></li> 
+				<li class="divider"></li>
+				<li><a href="https://twitter.com/Dmitry222">Twitter</a></li>
+				<li><a href="https://github.com/DmitryPustovit">GitHub</a></li>
 
+			  </ul>
+			</li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+    <div class="container">
 	
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-  <div class="container">
-	<div class="row-fluid">
-		<h1 id="hello"><big>Hello.</big></h1>
-		<div class="row">
-			<div id="image">
-				<img src="resources/profile.jpg" class="img-circle"/>
-			</div>
-		</div>
-		
-		<div class="row">
-			<h3 id="hello">My Name Is:</h3>
-			<h2 id="hello"><big>Dmitry Pustovit.</big></h2>
-		</div>
-		
-		<div class="row">
-			<h3 id="hello">I Am A:</h3>
-			<h2 id="hello"><big><b style="color:#3498DB; font-weight: 400;">Developer</b>. <b style="color:#5cb85c; font-weight: 400;">Designer</b>. <b style="color:#9B59B6; font-weight: 400;">Writer</b>. <b style="color:#5F7174; font-weight: 400;">Robot Builder</b>. <b style="color:#E67E22; font-weight: 400;">Physics Enthusiast</b>.</big></h2>
-		</div>
-		
+		<div class="intro">
+		<b style="font-size: 60px; font-weight: 400;">Dmitry Pustovit</b>
 		<br/>
-		
-		<div class="row">
-				<div class="col-md-2">
-				</div>
-		
-			<!--	<div class="col-md-4">
-				</br>
-					<a href="/about"><button type="button" class="btn btn-primary btn-lg" id="button"><<< Learn More</button></a>
-				</div> -->
-				
-				<div class="col-md-8	">
-				</br>
-					<a href="/blog"><button type="button" class="btn btn-default btn-lg" id="button">My Blog >>></button></a>
-				</div>
-				
-				<div class="col-md-2">
-				</div>
+		<big style="font-size: 26px;"><b style="color:#3498DB; font-weight: 400;">Developer</b>. <b style="color:#5cb85c; font-weight: 400;">Designer</b>. <b style="color:#9B59B6; font-weight: 400;">Writer</b>. <b style="color:#5F7174; font-weight: 400;">Robot Builder</b>. <b style="color:#E67E22; font-weight: 400;">Physics Enthusiast</b>.</big>
 		</div>
 		<br/><br/>
-	</div>	
-  </div>
+		<div class="divider" style="border: dashed 1px black;"></div>
+		
+		<article class="post">
+            <header>
+                <h1> <a href="posts/iOS8-Review.htm"> iOS 8 Review  </a> </h1>
+				<h2>Posted 9 / 21 / 14</h2>
+            </header>
+            <section class="postContent">
+                <p>
+					iOS 8 - Huge For Developers. Massive For Everyone Else.
+					<br/>
+					This is my opinion of iOS 8 and if people should upgrade. I will be covering only the iPhones. 
+					It will include a lot of the major drawbacks to the new update. I also mention some of the major 
+					benefits of the new update and what make it pretty neat.
+
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/iOS8-Review.htm">Read More...</a>
+            </div>
+		</article>
+		
+		<article class="post">
+            <header>
+                <h1> <a href="#"> An Explanation  </a> </h1>
+				<h2>Posted 9 / 21 / 14</h2>
+            </header>
+            <section class="postContent">
+                <p>
+					In the month of August I decided I did not like the way my blog looked or the webhost it was 
+					hosted on, I decided I would change both of those. Now I am a student, and as the school year 
+					has started up again I have found it hard to really dedicate time into working on my blog. As 
+					a result I give you this new blog. I looks much nicer and works a lot better however, all of my 
+					old posts and temporary gone and some of the feature that I would like to include are missing. 
+					These will be added hopefully in the coming weeks.
+                </p>
+            </section>
+		</article>
+		
+	  <!--  <article class="post">
+            <header>
+                <h1> <a href="posts/website-updates-and-changes.php"> Website Updates and Changes </a> </h1>
+            </header>
+            <section class="postContent">
+                <p>
+                    One of my first memories of learning programming was reading a story about two programmers. One 
+					was a programmer who work tirelessly day in and day out on software, writing every line of code 
+					himself. The second programmer was as skilled as the first but he used short cuts. He didn’t rewrite 
+					code he didn’t have to. He favoured simple methods versus complex methods. He did things quickly and 
+					efficiently. Most importantly however, he did things from the beach instead of being cramped up in 
+					his office or house.
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/website-updates-and-changes.php">Read More About The Changes…</a>
+            </div>
+        </article>
+	
+        <article class="post">
+            <header>
+                <h1> <a href="posts/best-of-a-bad-situation.php"> Best of a Bad Situation </a> </h1>
+            </header>
+            <section class="postContent">
+                <p>
+                    When you host a website there will be days when your website is down. Companies promise 99% 
+                    uptime or 99.99% uptime, still there will be times when your website is down. This is a guide 
+                    on how to make the best of those time. 
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/best-of-a-bad-situation.php">Read More...</a>
+            </div>
+        </article>
+
+        <article class="post">
+            <header>
+                <h1> <a href="posts/4th-of-july.php">Happy 4th of July Everyone!</a> </h1>
+            </header>
+            <section class="postContent">
+                <p>
+                    It’s the 4th of July, at least in my time zone. Today is a day for celebration, for most that
+                     means fireworks and a cookout. For me it’s about the same plus my laptop at my side. Today is
+                     a day for celebration so I am taking a break from all of my current projects and just enjoying the day. 
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/4th-of-july.php">Read More About The Celebration...</a>
+            </div>
+        </article>
+
+        <article class="post">
+            <header>
+                <h1> <a href="posts/account-protection-or-just-annoying.php">Account Protection or Just Annoying?</a> </h1>
+            </header>
+            <section class="postContent">
+                <p>
+                    It seems like now days every major online retailer has their own security methods, it can be just as simple as a username and password or 
+                    it can include an authorization code sent to your email. The methods vary based upon the different retailer. Usually I can suffer through 
+                    the extra steps and lose 5-10 minutes and think, this will help make my account safer. However, never have I suffered through a process so 
+                    irritating.
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/account-protection-or-just-annoying.php">Read More...</a>
+            </div>
+        </article>
+
+        <article class="post">
+            <header>
+                <h1> <a href="posts/free-webhost-discovery.php">Free Webhost Discovery</a> </h1>
+            </header>
+            <section class="postContent">
+                <p>
+                    Recently I found out about something pretty neat. I needed to show someone a webpage that I was working on and I didn’t want to have to
+                    call them on Skype and screen share or send screenshots. I wanted them to have the ability to explore it on their own. I needed a quick
+                    and simple web hosting solution. I found one that is pretty simple and that a lot of people may not have known about.
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/free-webhost-discovery.php">Read More...</a>
+            </div>
+        </article>
+
+        <article class="post">
+            <header>
+                <h1> <a href="posts/archive-system.php"> Archive System </a> </h1>
+            </header>
+            <section class="postContent">
+                <p>
+                    While I was building this site I made several choices that I felt would improve the general user experience. One of these choices 
+                    was to display only a set number of posts on my main page. It occurred to me when I made this choice that users may wish to view older 
+                    posts. I decided that I would just put all my posts onto one page that I would call the archive. An issue arose, how would users find 
+                    specific articles or articles on specific topics? My solution was an archive search that I think is pretty unique. 
+                </p>
+            </section>
+            <div class="readmore">
+                <a href="posts/archive-system.php">Read More...</a>
+            </div>
+        </article> -->
+		
+		<br/><br/><br/><br/>
+		<div class="row">
+				<div class="col-md-5">
+				</div>
+				
+				<div class="col-md-2">
+					<a href="#" onclick="Scroll()">
+						<div class="totop">
+							 ^ 
+						</div>
+					</a>
+				</div>
+				
+				<div class="col-md-5">
+				</div>
+		</div>
+		
+		<br/><br/>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>

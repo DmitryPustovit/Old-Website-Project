@@ -12,7 +12,7 @@ body{
 	
 	header a{
 		color: orangered;
-		font-size: 28px;
+		font-size: 26px;
 		font-weight: 700;
 	}
 	
@@ -44,5 +44,28 @@ body{
 	
 	.readmore a:hover{
 		color: blue;
+		text-decoration: none;
+	}
+	
+	.col-md-2{
+	}
+	
+	.totop{
+		font-size: 28px;
+		text-align: center;
+		border: 1px solid black;
+		border-radius: 100px;
+		padding-top: 10px;	
+		width: 52px;
+		margin: auto;
+	}
+	
+	.col-md-2 a{
+		color: black;
+		text-decoration: none;
+	}
+	
+	.col-md-2 a:hover{
+		color: black;
 		text-decoration: none;
 	}
