@@ -46,26 +46,15 @@ body{
 		color: blue;
 		text-decoration: none;
 	}
-	
-	.col-md-2{
-	}
-	
-	.totop{
-		font-size: 28px;
-		text-align: center;
+
+	.col-md-2 button{
+		background: none;
 		border: 1px solid black;
 		border-radius: 100px;
-		padding-top: 10px;	
-		width: 52px;
+		font-size: 28px;
 		margin: auto;
+		padding-top: 10px;	
+		text-align: center;
+		width: 52px;
 	}
 	
-	.col-md-2 a{
-		color: black;
-		text-decoration: none;
-	}
-	
-	.col-md-2 a:hover{
-		color: black;
-		text-decoration: none;
-	}
