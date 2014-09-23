@@ -58,3 +58,14 @@ body{
 		width: 52px;
 	}
 	
+	.col-md-2 button:hover{
+		border: 1px dashed black;
+		border-radius: 100px;
+	}
+	
+	.col-md-2 button,
+	.col-md-2 button:focus,
+	.col-md-2 button:active{
+		outline: 0;
+	}
+	
